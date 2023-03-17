@@ -62,7 +62,7 @@ async function img() {
 
 async function clean() {
 
-    return deleteAsync(["./build/*"])
+    return deleteAsync(["./build/*.html", "./build/css/", "./build/js/"])
 
 }
 
